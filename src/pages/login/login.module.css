@@ -1,0 +1,48 @@
+.formContainer {
+    margin-top: 20vh;
+}
+
+.headerH1 {
+    text-align: center;
+    margin: .5em;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .8em;
+    width: 30.0em;
+    margin: auto;
+    padding: 1.0em;
+    background-color: aliceblue;
+    box-shadow: .0em 1.1em 3.5em .4em rgba(0, 0, 0, 0.15);
+}
+
+.inputField {
+    border-radius: .8em;
+    margin: 0 0 2.0em;
+    padding: 1.0em 1.2em;
+    border: .1em solid #ccc;
+    display: block;
+}
+
+.red {
+    color: red;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.submitButton {
+    padding: 1em 6em;
+    margin-bottom: .5em;
+    border-radius: .8em;
+    border: 0;
+    background-color: rgb(0, 128, 255);
+    color: #fff;
+}
+
+.submitButton:hover {
+    background-color: rgb(2, 102, 252);
+    cursor: pointer;
+}

@@ -1,0 +1,8 @@
+* {
+    margin: 0;
+}
+
+.allBody {
+    background: linear-gradient(90deg, rgba(17, 130, 231, 1) 7%, rgba(4, 189, 128, 1) 96%);
+    min-height: 100vh;
+}
